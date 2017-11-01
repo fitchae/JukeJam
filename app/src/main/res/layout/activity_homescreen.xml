@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="160dp"
         android:layout_marginEnd="55dp"
-        android:text="Join"
+        android:text="@string/join"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -34,18 +34,21 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="160dp"
         android:layout_marginStart="55dp"
-        android:text="Host"
+        android:text="@string/host"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView_logo"
-        android:layout_width="wrap_content"
+        android:layout_width="351dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
-        android:text="JukeJam"
-        android:textSize="84sp"
+        android:layout_marginTop="36dp"
+        android:text="@string/jukejam"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

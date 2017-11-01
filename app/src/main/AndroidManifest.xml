@@ -11,10 +11,13 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".homepage"
-            android:label="@string/title_activity_homepage"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HomescreenActivity"></activity>
+            android:name=".HomescreenActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>
