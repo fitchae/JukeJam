@@ -20,7 +20,7 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="false"
-        android:text="Brett's Birthday"
+        android:text="@string/brett_s_birthday"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +47,7 @@
         android:layout_height="87dp"
         android:layout_marginEnd="70dp"
         android:layout_marginTop="40dp"
-        android:text="Frank Ocean \nProvider\nProvider"
+        android:text="@string/frank_ocean_nprovider_nprovider"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="18sp"
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Ribs - Lorder" />
+                android:text="@string/ribs_lorder" />
 
             <EditText
                 android:id="@+id/editText15"
@@ -113,7 +113,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Headlines - Drake" />
+                android:text="Headlines - Drake"
+                tools:ignore="HardcodedText" />
 
 
         </LinearLayout>
@@ -132,9 +133,8 @@
         android:id="@+id/imageButton7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
+        tools:layout_editor_absoluteX="255dp"
         tools:layout_editor_absoluteY="392dp" />
 
     <ImageButton
@@ -176,9 +176,8 @@
         android:id="@+id/imageButton9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
+        tools:layout_editor_absoluteX="255dp"
         tools:layout_editor_absoluteY="348dp" />
 
     <ImageButton
@@ -220,7 +219,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="9"
+        android:text="10"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/imageButton"

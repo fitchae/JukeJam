@@ -19,7 +19,7 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="false"
-        android:text="Brett's Birthday"
+        android:text="@string/brett_s_birthday"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,8 +44,8 @@
         android:layout_width="0dp"
         android:layout_height="87dp"
         android:layout_marginEnd="70dp"
-        android:layout_marginTop="40dp"
-        android:text="Frank Ocean \nProvider\nProvider"
+        android:layout_marginTop="44dp"
+        android:text="@string/frank_ocean_nprovider_nprovider"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="18sp"
@@ -273,37 +273,13 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         tools:layout_editor_absoluteY="493dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton11"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_previous"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="215dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_play"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="215dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_next"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="215dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_pause"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:layout_height="46dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="547dp" />
 
 
 </android.support.constraint.ConstraintLayout>
