@@ -11,30 +11,57 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
         android:text="Join a Room"
+        android:textColor="#f0fff0"
         android:textSize="62sp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Brett's Birthday"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="180dp" />
+        android:textColor="#f0fff0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text="Password"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="252dp" />
+        android:textColor="#f0fff0"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:src="@android:drawable/ic_input_delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="40dp"
+        android:text="Enter Room"
+        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
 
 </android.support.constraint.ConstraintLayout>

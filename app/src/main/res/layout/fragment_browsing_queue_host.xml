@@ -19,6 +19,7 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="false"
+        android:textColor="@color/colorPrimary"
         android:text="Brett's Birthday"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -33,6 +34,7 @@
         android:layout_marginBottom="452dp"
         android:layout_marginEnd="61dp"
         android:layout_marginStart="32dp"
+        android:textColor="@color/colorPrimary"
         android:src="@drawable/provider_frank_ocean"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
@@ -45,6 +47,7 @@
         android:layout_height="87dp"
         android:layout_marginEnd="70dp"
         android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
         android:text="Frank Ocean \nProvider\nProvider"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -62,6 +65,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:fillViewport="true"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
@@ -78,6 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="White - Frank Ocean" />
 
@@ -86,6 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="Humble - Kendrick Lamar" />
 
@@ -94,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="LandSlide - Oh Wonder" />
 
@@ -102,6 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="Ribs - Lorder" />
 
@@ -110,6 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="Headlines - Drake" />
 
@@ -304,6 +313,22 @@
         android:src="@android:drawable/ic_media_pause"
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="215dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_delete"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </android.support.constraint.ConstraintLayout>

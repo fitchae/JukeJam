@@ -18,6 +18,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
+        android:textColor="#f0fff0"
         android:singleLine="false"
         android:text="@string/brett_s_birthday"
         android:textAlignment="center"
@@ -44,6 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="87dp"
         android:layout_marginEnd="70dp"
+        android:textColor="#f0fff0"
         android:layout_marginTop="44dp"
         android:text="@string/frank_ocean_nprovider_nprovider"
         android:textAlignment="center"
@@ -78,6 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#f0fff0"
                 android:inputType="textMultiLine"
                 android:text="White - Frank Ocean" />
 
@@ -86,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#f0fff0"
                 android:inputType="textMultiLine"
                 android:text="Humble - Kendrick Lamar" />
 
@@ -94,6 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#f0fff0"
                 android:inputType="textMultiLine"
                 android:text="LandSlide - Oh Wonder" />
 
@@ -102,6 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#f0fff0"
                 android:inputType="textMultiLine"
                 android:text="Ribs - Lorder" />
 
@@ -110,6 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#f0fff0"
                 android:inputType="textMultiLine"
                 android:text="Headlines - Drake" />
 
@@ -273,13 +280,21 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         tools:layout_editor_absoluteY="493dp" />
 
-    <Button
-        android:id="@+id/button"
+    <ImageButton
+        android:id="@+id/imageButton18"
         android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="547dp" />
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_delete"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </android.support.constraint.ConstraintLayout>

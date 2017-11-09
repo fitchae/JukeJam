@@ -11,28 +11,20 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Brett's Bday"
+        android:text="Brett's Birthday"
         android:textColor="#f0fff0"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="127dp"
         tools:layout_editor_absoluteY="3dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton15"
-        android:layout_width="34dp"
-        android:layout_height="34dp"
-        android:src="@drawable/ic_settings_white_24dp"
-        tools:layout_editor_absoluteX="324dp"
-        tools:layout_editor_absoluteY="3dp" />
-
     <SearchView
         android:layout_width="379dp"
         android:layout_height="29dp"
-        android:queryHint="Kendrick Lamar"
         android:background="@android:color/darker_gray"
         android:backgroundTint="@android:color/darker_gray"
+        android:queryHint="Kendrick Lamar"
         android:textColor="#f0fff0"
-        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="53dp" />
 
     <TextView
@@ -46,14 +38,6 @@
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="105dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="377dp" />
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="217dp"
@@ -64,14 +48,6 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="283dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="333dp" />
 
     <TextView
         android:id="@+id/textView12"
@@ -95,14 +71,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="341dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="274dp" />
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="217dp"
@@ -114,14 +82,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="241dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="230dp" />
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="217dp"
@@ -132,14 +92,6 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="190dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
 
     <TextView
         android:id="@+id/textView13"
@@ -155,8 +107,8 @@
         android:layout_width="fill_parent"
         android:layout_height="2dip"
         android:background="#FFFFFF"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="476dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="538dp" />
 
     <TextView
         android:id="@+id/textView14"
@@ -165,8 +117,8 @@
         android:text="Now Playing"
         android:textColor="#f0fff0"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="492dp" />
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="540dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -174,24 +126,88 @@
         android:layout_height="wrap_content"
         android:text="Landslide"
         android:textColor="#f0fff0"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="596dp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
-        android:textColor="#f0fff0"
         android:layout_height="wrap_content"
         android:text="Oh Wonder"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="532dp" />
+        android:textColor="#f0fff0"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="615dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="68dp"
         android:layout_height="35dp"
         android:text="Save"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="516dp" />
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="115dp"
+        android:layout_height="85dp"
+        android:src="@drawable/oh_wonder_landslide_artwork_kl"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_delete"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="3dp" />
 
 </android.support.constraint.ConstraintLayout>
