@@ -69,9 +69,10 @@
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,45 +84,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
-                android:text="White - Frank Ocean" />
+                android:text="White - Frank Ocean"
+                android:textColor="@color/colorPrimary" />
 
             <EditText
                 android:id="@+id/editText8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
-                android:text="Humble - Kendrick Lamar" />
+                android:text="Humble - Kendrick Lamar"
+                android:textColor="@color/colorPrimary" />
 
             <EditText
                 android:id="@+id/editText9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
-                android:text="LandSlide - Oh Wonder" />
+                android:text="LandSlide - Oh Wonder"
+                android:textColor="@color/colorPrimary" />
 
             <EditText
                 android:id="@+id/editText14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
-                android:text="@string/ribs_lorder" />
+                android:text="@string/ribs_lorder"
+                android:textColor="@color/colorPrimary" />
 
             <EditText
                 android:id="@+id/editText15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:textColor="@color/colorPrimary"
                 android:inputType="textMultiLine"
                 android:text="Headlines - Drake"
+                android:textColor="@color/colorPrimary"
                 tools:ignore="HardcodedText" />
 
 
@@ -133,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
         app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
         tools:layout_editor_absoluteY="485dp" />
 
@@ -141,7 +142,7 @@
         android:id="@+id/imageButton7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_down"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
         tools:layout_editor_absoluteX="255dp"
         tools:layout_editor_absoluteY="392dp" />
 
@@ -150,7 +151,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -163,6 +164,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="3"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -175,6 +177,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="7"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -184,7 +187,7 @@
         android:id="@+id/imageButton9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_down"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
         tools:layout_editor_absoluteX="255dp"
         tools:layout_editor_absoluteY="348dp" />
 
@@ -194,7 +197,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@android:color/holo_green_dark"
-        android:src="@drawable/ic_keyboard_arrow_up"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
         android:tint="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -206,7 +209,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
         app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
         tools:layout_editor_absoluteY="436dp" />
 
@@ -215,7 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -228,6 +231,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="10"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -237,7 +241,7 @@
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_down"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="304dp" />
 
@@ -245,7 +249,7 @@
         android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_up"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
         tools:layout_editor_absoluteX="347dp"
         tools:layout_editor_absoluteY="304dp" />
 
@@ -256,6 +260,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="10"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -266,7 +271,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -281,22 +286,16 @@
         android:text="1"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.333"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         tools:layout_editor_absoluteY="493dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_previous"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="215dp" />
 
     <ImageButton
         android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_play"
+        android:src="@drawable/ic_play_arrow_black"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="215dp" />
 
@@ -304,23 +303,15 @@
         android:id="@+id/imageButton13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_next"
+        android:src="@drawable/ic_skip_next_black"
         tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="215dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_pause"
-        tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="215dp" />
 
     <ImageButton
         android:id="@+id/imageButton29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_input_delete"
+        android:src="@drawable/ic_arrow_back_black"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -328,7 +319,7 @@
         android:id="@+id/imageButton30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_menu_search"
+        android:src="@drawable/ic_search_black"
         tools:layout_editor_absoluteX="339dp"
         tools:layout_editor_absoluteY="16dp" />
 

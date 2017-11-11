@@ -11,13 +11,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="14dp"
         android:text="Join a Room"
         android:textColor="#f0fff0"
         android:textSize="62sp"
-        app:layout_constraintStart_toStartOf="@+id/imageButton17"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton17" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="66dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -44,15 +42,6 @@
         app:layout_constraintStart_toStartOf="@+id/editText4"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
-    <ImageButton
-        android:id="@+id/imageButton17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:src="@android:drawable/ic_input_delete"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -62,6 +51,14 @@
         android:text="Enter Room"
         app:layout_constraintEnd_toEndOf="@+id/editText5"
         app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back_black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </android.support.constraint.ConstraintLayout>

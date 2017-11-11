@@ -126,199 +126,157 @@
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
-        tools:layout_editor_absoluteY="485dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
-        tools:layout_editor_absoluteY="392dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="392dp" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="3"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="333dp"
         tools:layout_editor_absoluteY="448dp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="7"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="333dp"
         tools:layout_editor_absoluteY="400dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
-        tools:layout_editor_absoluteY="348dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="348dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:src="@drawable/ic_keyboard_arrow_down"
-        app:layout_constraintStart_toEndOf="@+id/nestedScrollView"
-        tools:layout_editor_absoluteY="436dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="436dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="9"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="333dp"
         tools:layout_editor_absoluteY="356dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_down"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="304dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_arrow_up"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="304dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="10"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="325dp"
         tools:layout_editor_absoluteY="311dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_keyboard_arrow_up"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        tools:layout_editor_absoluteY="485dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="1"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="333dp"
         tools:layout_editor_absoluteY="493dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_previous"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="215dp" />
 
     <ImageButton
         android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_play"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:src="@drawable/ic_play_arrow_black"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="223dp" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/imageButton33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_next"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:src="@drawable/ic_skip_next_black"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="223dp" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/imageButton34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_pause"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_keyboard_arrow_up_black"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_keyboard_arrow_down_black"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        tools:layout_editor_absoluteY="307dp" />
 
     <ImageButton
         android:id="@+id/imageButton27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_input_delete"
+        android:src="@drawable/ic_arrow_back_black"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -326,8 +284,8 @@
         android:id="@+id/imageButton28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_menu_search"
-        tools:layout_editor_absoluteX="339dp"
+        android:src="@drawable/ic_search_black"
+        tools:layout_editor_absoluteX="347dp"
         tools:layout_editor_absoluteY="16dp" />
 
 
