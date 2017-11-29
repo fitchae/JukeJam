@@ -30,78 +30,6 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="53dp" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:text="Results"
-        android:textColor="#f0fff0"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="105dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="217dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="44dp"
-        android:text="III. Life: The Biggest Troll [Andrew Auernheimer]"
-        android:textColor="#f0fff0"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="190dp" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:background="#FFFFFF"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="538dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="22dp"
-        android:text="Now Playing"
-        android:textColor="#f0fff0"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="540dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Landslide"
-        android:textColor="#f0fff0"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="596dp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Oh Wonder"
-        android:textColor="#f0fff0"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="615dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="68dp"
-        android:layout_height="35dp"
-        android:text="Save"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="580dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="115dp"
-        android:layout_height="85dp"
-        android:src="@drawable/oh_wonder_landslide_artwork_kl"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="558dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -110,13 +38,5 @@
         android:src="@drawable/ic_arrow_back_black"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="3dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_queue_black_48px"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="190dp" />
 
 </android.support.constraint.ConstraintLayout>
