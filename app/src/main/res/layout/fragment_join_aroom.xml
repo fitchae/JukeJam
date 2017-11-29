@@ -55,72 +55,14 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editText6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="Dodds 319" />
-
-            <EditText
-                android:id="@+id/editText8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="Halloween 2k17" />
-
-            <EditText
                 android:id="@+id/editText9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="Brett's Birthday" />
+                android:text="Brett's Birthday"
+                android:textColor="@color/colorPrimary" />
 
-            <EditText
-                android:id="@+id/editText14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="Group 14 Study Party" />
-
-            <EditText
-                android:id="@+id/editText15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="Colorado Roadtrip" />
-
-            <EditText
-                android:id="@+id/editText16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:textColor="@color/colorPrimary"
-                android:text="MLH" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:textColor="@color/colorPrimary"
-                android:inputType="textMultiLine" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:textColor="@color/colorPrimary"
-                android:inputType="textMultiLine" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

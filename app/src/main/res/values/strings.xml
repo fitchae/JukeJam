@@ -15,4 +15,7 @@
     <string name="ribs_lorder">Ribs - Lorder</string>
     <string name="brett_s_birthday">Brett\'s Birthday</string>
     <string name="frank_ocean_nprovider_nprovider">Frank Ocean Provider Provider</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
 </resources>

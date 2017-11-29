@@ -18,11 +18,14 @@
         tools:layout_editor_absoluteY="3dp" />
 
     <SearchView
+        android:id="@+id/text"
         android:layout_width="379dp"
         android:layout_height="29dp"
         android:background="@android:color/darker_gray"
         android:backgroundTint="@android:color/darker_gray"
-        android:queryHint="Kendrick Lamar"
+        android:clickable="false"
+        android:inputType="text"
+        android:queryHint="III. Life: The Biggest Troll [Andrew Auernheimer]"
         android:textColor="#f0fff0"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -41,67 +44,13 @@
     <TextView
         android:id="@+id/textView12"
         android:layout_width="217dp"
-        android:layout_height="26dp"
+        android:layout_height="45dp"
         android:layout_marginStart="44dp"
-        android:text="DNA - Kendrick Lamar"
-        android:textColor="#f0fff0"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="283dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="217dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="44dp"
-        android:text="LOYALTY - Kendrick Lamar"
-        android:textColor="#f0fff0"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="388dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="217dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="44dp"
-        android:text="YAHH- Kendrick Lamar"
-        android:textColor="#f0fff0"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="341dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="217dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="44dp"
-        android:text="HUMBLE - Kendrick Lamar"
-        android:textColor="#f0fff0"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="241dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="217dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="44dp"
-        android:text="ELEMENT - Kendrick Lamar"
+        android:text="III. Life: The Biggest Troll [Andrew Auernheimer]"
         android:textColor="#f0fff0"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="190dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="82dp"
-        android:layout_height="24dp"
-        android:text="Show More"
-        android:textColor="#f0fff0"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="440dp" />
 
     <View
         android:layout_width="fill_parent"
@@ -163,43 +112,11 @@
         tools:layout_editor_absoluteY="3dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_queue_black_48px"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="232dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_queue_black_48px"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="276dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_queue_black_48px"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="331dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_queue_black_48px"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="375dp" />
-
-    <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_queue_black_48px"
         tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteY="190dp" />
 
 </android.support.constraint.ConstraintLayout>
